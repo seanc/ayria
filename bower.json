@@ -1,0 +1,13 @@
+{
+  "name": "ayria",
+  "homepage": "https://github.com/seanc/ayria",
+  "authors": [
+    "seanc"
+  ],
+  "description": "Website Portal for Ayria Network",
+  "license": "Apache 2.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}

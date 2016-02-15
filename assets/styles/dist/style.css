@@ -1,0 +1,62 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.header {
+  width: 100%;
+  height: 25em;
+  background-color: #406075;
+  color: #fff;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .header > .icon {
+    font-size: 3em; }
+  .header > .title {
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-size: 1.5em; }
+
+.network {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 35px auto !important; }
+  .network > .platform {
+    text-align: center; }
+    .network > .platform > .desc {
+      font-size: 14px;
+      color: #737373; }
+    .network > .platform > .button {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 12px;
+      padding: 6px 60px;
+      color: #fff;
+      background-color: #406075; }
+
+.footer {
+  text-align: center;
+  width: 100%;
+  color: #737373;
+  height: 60px;
+  line-height: 60px; }
